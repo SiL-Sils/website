@@ -1,0 +1,459 @@
+﻿@charset "utf-8"; 
+
+
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, p, th, td, img {
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+}
+
+body {
+	line-height: 2;	
+	font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro"; 
+	font-size: 75%; 
+	color: #333333; 
+}
+
+ol, ul {
+	list-style: none; 
+}
+
+a { 
+	color: #0000FF; 
+	text-decoration: none; 
+}
+
+a:hover { 
+	color: #C74B15; 
+	text-decoration: underline; 
+}
+
+.color1 {
+	color: #FF0033; 
+}
+
+
+
+#header {
+	background-image: url(../images/header.gif); 
+	background-repeat: repeat-x; 
+	height: 73px; 
+	width: auto; 
+}
+
+#header_inner {
+	position: relative; 
+	margin: 0 auto; 
+	width: 970px; 
+}
+
+#header h1 {
+	position: absolute; 
+	left: 180px; 
+	top: 2px; 
+	font-size: 0.9em; 
+	font-weight: normal; 
+	color: #ffffff; 
+}
+
+#logo {
+	position: absolute; 
+	left: -30px; 
+	top: 0px; 
+}
+
+#sitemap a {
+	position: absolute; 
+	right: 10px; 
+	top: 2px; 
+	font-size: 0.9em; 
+	color: #ffffff; 
+}
+
+
+
+#container { 
+	width: 970px; 
+	margin: auto; 
+	background-color:#ffffff; 
+}
+
+#container a:hover img { 
+	filter: Alpha(opacity=70); 
+	opacity: 0.7; 
+}
+
+#main {
+	width: 650px; 
+	float: left; 
+}
+
+#main2 {
+	width: 790px; 
+	float: left; 
+}
+
+#content {
+	width: 396px; 
+	float: right; 
+	margin: 20px 0; 
+}
+
+#content2 {
+	width: 610px; 
+	float: right; 
+	margin: 20px 0; 
+}
+
+#leftside {
+	width: 234px; 
+	float: left; 
+	margin: 20px 0; 
+}
+
+#leftside2 {
+	width: 160px; 
+	float: left; 
+	margin: 20px 0; 
+}
+
+#rightside {
+	width: 300px; 
+	float: right; 
+	margin: 20px 0; 
+}
+
+#rightside2 {
+	width: 160px; 
+	float: right; 
+	margin: 20px 0; 
+}
+
+
+
+#footer {
+	clear: both; 
+	height: 70px; 
+	width: 100%; 
+	background-image: url(../images/foot.gif); 
+	background-repeat: repeat-x; 
+}
+
+#footer_inner {
+	position: relative; 
+	width: 970px; 
+	margin: 0 auto; 
+	padding: 10px; 
+}
+
+#footer p {
+	font-size: 0.75em; 
+	color: #ffffff; 
+	text-align: center; 
+}
+
+#footerlogo {
+	position: absolute; 
+	right: 0px; 
+	top: 10px; 
+}
+
+
+
+#footmenu {
+	margin-bottom: 8px; 
+	text-align: left; 
+}
+
+#footmenu li {
+	padding-left: 15px; 
+	margin-left: 15px; 
+	border-left: solid 1px #ffffff; 
+	display: inline; 
+	list-style-type: none; 
+}
+
+#footmenu li.first {
+	border-left: none; 
+}
+
+#footmenu a { 
+	color: #ffffff; 
+	text-decoration: none; 
+}
+
+#footmenu a:hover { 
+	text-decoration: underline; 
+}
+
+
+
+.post {
+	clear: both; 
+	width: auto; 
+}
+
+.post h2 {
+	background-image: url(../images/h2.gif); 
+	background-repeat: repeat-x; 
+	line-height: 30px;	
+	margin-bottom: 10px; 
+	font-size: 1em; 
+	color: #ffffff; 
+	padding-left: 10px; 
+}
+
+.post ul {
+	margin-bottom: 15px; 
+}
+
+.post ul li {
+	padding-left: 15px; 
+}
+
+
+
+.product {
+	overflow: hidden; 
+	padding: 5px; 
+	border: 1px solid #dcdcdc; 
+	margin-bottom: 10px; 
+	width: 597px; 
+}
+
+.product img {
+	float: left; 
+	width: 170px; 
+}
+
+.product h3 {
+	font-size: 1em; 
+	color: #055723;	
+	padding-left: 180px; 
+}
+
+.product h3 a {
+	color: #055723;	
+}
+
+.product p {
+	padding-left: 180px; 
+}
+
+
+
+.ta1 {
+	width: 610px; 
+	border-collapse: collapse; 
+	margin-bottom: 10px; 
+}
+
+.ta1 th, td {
+	border: solid 1px #dcdcdc; 
+	padding: 10px; 
+	font-size: 1em; 
+	text-align: left; 
+}
+
+.ta1 th {
+	background-color: #f0f6da; 
+	color: #333333; 
+}
+
+.ta1 td {
+	padding-left: 10px; 
+}
+
+
+.box {
+	overflow: hidden; 
+	padding: 5px; 
+	border: 1px solid #dcdcdc; 
+	margin-bottom: 10px; 
+	width: 598px; 
+}
+
+
+
+#formtable {
+	width: 610px; 
+}
+
+#formtable table {
+	width: 100%; 
+	border-collapse: collapse; 
+}
+
+#formtable th {
+	width: 100px; 
+	border: solid 1px #dcdcdc; 
+	padding: 5px; 
+	background-color: #f0f6da; 
+	font-size: 1em; 
+	color: #333333; 
+	text-align: left; 
+}
+
+#formtable td {
+	border: solid 1px #dcdcdc; 
+	padding: 5px; 
+	font-size: 1em; 
+}
+
+#formtable input {
+	border: solid 1px #bfbec5; 
+}
+
+#formtable textarea {
+	border: solid 1px #bfbec5; 
+}
+
+#formtable p {
+	margin: 10px 0; 
+	text-align:center; 
+}
+
+.formimg {
+	border: none !important; 
+}
+
+
+#leftside img {
+	margin-bottom: 10px; 
+}
+
+#leftside h2 {
+	padding-left: 10px; 
+	margin: 10px 0; 
+	font-size: 1em; 
+	color: #333333; 
+}
+
+
+
+.newlist {
+	margin-bottom: 15px; 
+}
+
+.newlist dl {
+	width: auto; 
+	height: 200px; 
+	overflow: auto; 
+	padding-left: 5px; 
+	text-align: left; 
+}
+
+.newlist dt {
+	font-weight: bold; 
+	color: #666666; 
+}
+
+.newlist dd {
+	border-bottom: 1px solid #cccccc; 
+	margin: 5px 10px 10px 5px; 
+}
+
+
+
+.menu_list {
+	width: 160px; 
+}
+
+.menu_head {
+	padding: 10px; 
+	cursor: pointer; 
+	position: relative; 
+	margin-bottom: 1px; 
+	font-weight: bold; 
+	background: #5C6884 url(../images/left.png) center right no-repeat; 
+}
+
+.menu_head a {
+	color: #ffffff; 
+	text-decoration: none; 
+}
+
+.menu_head a:hover {
+	color: #f5b1aa; 
+	text-decoration: none; 
+}
+
+.menu_body {
+	display: none; 
+}
+
+.menu_body a {
+	display: block; 
+	color: #006699; 
+	background-color: #e7e7eb;
+	padding-left: 20px; 
+	font-weight: bold; 
+	text-decoration: none; 
+}
+
+.menu_body a:hover {
+	color: #aa4c8f; 
+	text-decoration: none; 
+}
+
+
+
+.ta2 {
+	width: 160px; 
+	border-collapse: collapse; 
+	margin: 20px 0; 
+}
+
+.ta2 th, td {
+	border: solid 1px #dcdcdc; 
+	padding: 2px 0; 
+	font-size: 1em; 
+	text-align: left; 
+}
+
+.ta2 th {
+	background-color: #dcdcdc; 
+}
+
+.ta2 td {
+	padding-left: 10px; 
+}
+
+.ta2 h2 {
+	font-size: 1em; 
+	color: #333333; 
+	padding-left: 5px; 
+}
+
+
+
+
+
+.ta3 {
+	width: 300px; 
+	border-collapse: collapse; 
+	margin: 20px 0; 
+}
+
+.ta3 th, td {
+	border: solid 1px #dcdcdc; 
+	padding: 2px 0; 
+	font-size: 1em; 
+	text-align: left; 
+}
+
+.ta3 th {
+	background-color: #dcdcdc; 
+	text-align: center; 
+}
+
+.ta3 td {
+	padding-left: 10px; 
+}
+
+.ta3 h2 {
+	font-size: 1em; 
+	color: #333333; 
+	padding-left: 5px; 
+}
